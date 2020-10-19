@@ -1,3 +1,12 @@
+
+//----------------------------------------------—
+//! Solver of square equation ax^2 + bx + c = 0
+//!
+//! @param [in] a a-coeff
+//! @param [in] b b-coeff
+//! @param [in] c c-coeff
+//------------------------------------------------
+
 #include <stdio.h>
 #include <math.h>
 #include <assert.h>
@@ -46,21 +55,3 @@ int main() {
     return 0;
 }
 
-
-
-//----------------------------------------------—
-//! Solver of square equation ax^2 + bx + c = 0
-//!
-//! @param [in] a a-coeff
-//! @param [in] b b-coeff
-//! @param [in] c c-coeff
-//! @param [out] x_1 Pointer to the first root
-//! @param [out] x_2 Pointer to the second root
-//!
-//! @return Number of roots
-//!
-//! @note In case of infinite number of roots,
-//! returns INF_ROOTS
-//! In case of complex roots,
-//! return COMPLEX_ROOTS
-//------------------------------------------------
